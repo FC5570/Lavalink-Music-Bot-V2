@@ -20,7 +20,6 @@ class StopCommand extends Command {
       return message.channel.send(
         "No song is being currently played in this server."
       );
-    g;
     const { channel } = message.member.voice;
 
     if (!channel)

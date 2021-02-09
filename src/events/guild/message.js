@@ -5,7 +5,7 @@ class MessageEvent extends Listener {
   constructor() {
     super("message", {
       emitter: "client",
-      event: "ready",
+      event: "message",
     });
   }
 
@@ -24,7 +24,6 @@ class MessageEvent extends Listener {
           message.author.username,
           message.author.displayAvatarURL({ dynamic: true })
         );
-
       message.channel.send(embed);
     }
   }

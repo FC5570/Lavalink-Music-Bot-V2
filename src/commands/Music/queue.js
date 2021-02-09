@@ -1,5 +1,5 @@
 const { Command } = require("discord-akairo");
-
+const { MessageEmbed } = require("discord.js");
 class QueueCommand extends Command {
   constructor() {
     super("queue", {
