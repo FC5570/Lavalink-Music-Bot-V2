@@ -10,13 +10,9 @@ A Lavalink Music Bot which uses erela.js and discord-akairo.
 
 ## Config
 1) **token**: Your Discord Bot Token found in the Bot tab of your Application.
-
 2) **prefix**: The Bot's prefix.
-
 3) **nodes**: An array of lavalink nodes to be used to play music. `host` is the lavalink host (localhost if youre running it locally), `port` is the Lavalink Server port (default is 2333), `password` is the Lavalink Server Password (default is youshallnotpass).
-
 4) **csID**: Is the `Client ID` of your spotify app, if you dont want the bot to play spotify songs remove `plugins` from **line 46** in src/client.js
-
 5) **csSecret**: is the `Client Secret` of your spotify app.
 
 ### If you need any help you can DM me on Discord: FC#5104
